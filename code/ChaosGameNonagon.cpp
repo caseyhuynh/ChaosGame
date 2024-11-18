@@ -19,7 +19,7 @@ int main()
 	
 	Text choosePoints;
 	Font font;
-	font.loadFromFile("C:/Windows/Fonts/arial.ttf");
+	font.loadFromFile("Fonts/arial.ttf");
 	choosePoints.setFont(font);
 	choosePoints.setString("Choose Points");
 	choosePoints.setCharacterSize(75);
